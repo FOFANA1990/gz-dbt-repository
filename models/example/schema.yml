@@ -9,6 +9,3 @@ sources:
         identifier: raw_gz_product
       - name: ship
         identifier: raw_gz_ship
-          {{source('gz_raw_data', 'sales')}}
-          {{source('gz_raw_data', 'product')}}
-          {{source('gz_raw_data', 'ship')}}
